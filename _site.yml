@@ -7,12 +7,12 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "Publications"
-      icon: fa-paper-plane 
-      href: publications.html
-    - text: "Software"
-      icon: fa-cubes 
-      href: Software.html
+    #- text: "Publications"
+   #   icon: fa-paper-plane 
+   #   href: publications.html
+   # - text: "Software"
+   #   icon: fa-cubes 
+   #   href: Software.html
     #- text: "Teaching"
     #  icon: fa-graduation-cap
     #  href: Teaching.html
