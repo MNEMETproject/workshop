@@ -3,7 +3,7 @@ output_dir: "."
 navbar:
   title: "MNEMET"                             # CHANGE HERE 
   type: inverse
-  left:
+  #left:
   #  - text: "Home"
   #    icon: fa-home
   #    href: index.html
