@@ -1,5 +1,7 @@
 name: "MNEMET"                                # CHANGE HERE 
 output_dir: "."
+extra_css:
+  - extr/extra.css  # Adjust path as needed
 navbar:
   title: "MNEMET"                             # CHANGE HERE 
   type: inverse
