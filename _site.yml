@@ -1,7 +1,7 @@
-name: "Vincenzo Gioia"                                # CHANGE HERE 
+name: "MNEMET"                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "Vincenzo Gioia"                             # CHANGE HERE 
+  title: "MNEMET"                             # CHANGE HERE 
   type: inverse
   left:
     - text: "Home"
@@ -31,7 +31,7 @@ navbar:
       href: Contact_me.html   # CHANGE HERE 
     - text: "GitHub"
       icon: fa-github
-      href: https://github.com/VinGioia90       # CHANGE HERE 
+      href: https://github.com/MNEMETproject      # CHANGE HERE 
 output:
   html_document:
     theme: spacelab
