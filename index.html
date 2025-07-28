@@ -263,15 +263,19 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
-<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
+min-height: gestisce l'altezza della parte azzurra, padding-top: il margine superiore, padding-bottom: dal basso        
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="min-height: 160px; padding-top: 10px; padding-bottom: 30px;">
+  <div class="container" style="max-width: 100%;">
+    <div class="navbar-header text-center" style="width: 100%;">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Vincenzo Gioia</a>
+font_size: dimensione caratteri      
+      <div class="navbar-brand mx-auto d-block text-center" href="index.html" style="float: none; font-size: 30px; padding: 20px 15px; line-height: 1.25; color: white;">
+        MNEMET Final Workshop<br>
+      </div>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
  <ul class="nav navbar-nav navbar-right">
@@ -293,6 +297,7 @@ $(document).ready(function () {
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
+</div>      
 
 <!--<div class="container-fluid main-container">
 min-height: gestisce l'altezza della parte azzurra, padding-top: il margine superiore, padding-bottom: dal basso        
@@ -307,7 +312,6 @@ min-height: gestisce l'altezza della parte azzurra, padding-top: il margine supe
 font_size: dimensione caratteri      
       <div class="navbar-brand mx-auto d-block text-center" href="index.html" style="float: none; font-size: 30px; padding: 20px 15px; line-height: 1.25; color: white;">
         MNEMET Final Workshop<br>
-      <small style="font-size: 24px;">Modelling Non-standard data and Extremes in Multivariate Environmental Time series</small>
       </div>
     </div>
   </div>
