@@ -257,18 +257,21 @@ $(document).ready(function () {
     }
   </style>
 </head>
-
-<button id="menu-toggle">☰ Menu</button>
-<nav id="mobile-menu" class="hidden">
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Contatti</a></li>
-  </ul>
-</nav>
       
 <body>
 
-
+ <header class="navbar">
+    <button id="menu-toggle" class="menu-button">☰ Menu</button>
+    <nav id="nav-links" class="nav-links hidden">
+      <a href="#">Home</a>
+      <a href="#">Chi siamo</a>
+      <a href="#">Servizi</a>
+      <a href="#">Contatti</a>
+    </nav>
+  </header>
+      
+  <script src="script.js"></script>
+      
 <div class="container-fluid main-container">
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="min-height: 160px; padding-top: 10px; padding-bottom: 30px;">
   <div class="container" style="max-width: 100%;">
