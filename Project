@@ -9,7 +9,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-
+.content {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: justify;
+      font-family: sans-serif;
+      line-height: 1.6;
+    }
+      
+.left-align {
+   text-align: left;
+}
 
 <title>Project.knit</title>
 
@@ -222,6 +232,9 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+
+
+
 </head>
 
      <head>
@@ -333,7 +346,7 @@ $(document).ready(function () {
         </p>
     </section>
 
-
+</div>
 
 </div>
 
