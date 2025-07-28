@@ -237,7 +237,7 @@ $(document).ready(function () {
 
 </head>
 
-     <head>
+      <head>
   <style>
     .workshop-content {
       max-width: 900px;
@@ -258,11 +258,12 @@ $(document).ready(function () {
   </style>
 </head>
 
-       
+      
 <body>
 
 
-<div class="container-fluid main-container">   
+<div class="container-fluid main-container">
+min-height: gestisce l'altezza della parte azzurra, padding-top: il margine superiore, padding-bottom: dal basso        
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="min-height: 160px; padding-top: 10px; padding-bottom: 30px;">
   <div class="container" style="max-width: 100%;">
     <div class="navbar-header text-center" style="width: 100%;">
@@ -277,7 +278,6 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
  <ul class="nav navbar-nav navbar-right">
-
    <li>
   <a href="Project.html">
     <span class="fa fa-cubes"></span>
@@ -290,6 +290,179 @@ $(document).ready(function () {
 </div><!--/.navbar -->
 </div>      
 
+<!--<div class="container-fluid main-container">
+min-height: gestisce l'altezza della parte azzurra, padding-top: il margine superiore, padding-bottom: dal basso        
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="min-height: 160px; padding-top: 10px; padding-bottom: 30px;">
+  <div class="container" style="max-width: 100%;">
+    <div class="navbar-header text-center" style="width: 100%;">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+font_size: dimensione caratteri      
+      <div class="navbar-brand mx-auto d-block text-center" href="index.html" style="float: none; font-size: 30px; padding: 20px 15px; line-height: 1.25; color: white;">
+        MNEMET Final Workshop<br>
+      </div>
+    </div>
+  </div>
+</div>-->
+<!--
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+           <a class="navbar-brand" href="index.html">
+  MNEMET Final Workshop<br>
+  <small>Modelling Non-standard data and Extremes in Multivariate Environmental Time series</small>
+</a>
+-->
+   <!--    
+    </div>
+     
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+          <li>
+  <a href="Project.html">
+    <span class="fa fa-home"></span>
+   
+    Home
+  </a>
+</li>
+
+  </div><!--/.nav-collapse 
+  </div><!--/.container 
+</div><!--/.navbar
+->>      
+<!--            
+<li>
+  <a href="publications.html">
+    <span class="fa fa-paper-plane"></span>
+     
+    Publications
+  </a>
+</li>
+<li>
+  <a href="Software.html">
+    <span class="fa fa-cubes"></span>
+     
+    Software
+  </a>
+ </li>         
+ <!-- <li>
+  <a href="Teaching.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Teaching
+  </a>
+</li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="Contact_me.html">
+    <span class="fa fa-envelope-o"></span>
+     
+    Contact
+  </a>
+<!--</li>
+<li>
+  <a href="https://github.com/VinGioia90">
+    <span class="fa fa-github"></span>
+     
+    GitHub
+  </a>
+</li> 
+      </ul> -->
+<!--       
+    </div><!--/.nav-collapse 
+  </div><!--/.container 
+</div><!--/.navbar
+-->
+<div id="header">
+
+</div>
+
+<p><br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  </p>  
+<div class="workshop-content">
+<h2> <p> September 29th, 2025 - University of Trieste   </p> </h2>
+<h2> <p> <small>Department of Economics, Business, Mathematics and Statistics “B. de Finetti"</small> </p> </h2>
+   
+<center>
+  <img src="image.png" alt="drawing" style="width:650px; margin-top: -15px; margin-bottom: -25px;" />
+</center>
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 28px;">
+  <img src="bozen.jpg" alt="Left image" style="height: 67px; width: auto; margin-right: 10px;" />
+  <img src="unimi.png" style="width: 120px; height: auto; margin-left: 10px;">
+</div>        
+
+  <p style="margin-top: 10px;">
+    The <strong>MNEMET (Modelling Non-standard data and Extremes in Multivariate Environmental Time series) final workshop</strong> aims to bring together young researchers and subject experts for exchanging the latest scientific advancements and ideas for future research in methodological and applied areas, including multivariate statistical modelling, spatial-temporal data analysis, time series modeling, and extreme value theory in environmental problems. 
+  </p> 
+  <p>
+    The MNEMET Team of UniTS (Roberta Pappadà,  Gaetano Carmeci,  Vincenzo Gioia,  Giovanni Millo), UniBZ (Marta di Lascio, Selene Perazzini) and UniMI (Luca Rossini, Andrea Bastianin, Andrea Viselli) welcomes all those interested in participating in the workshop.
+  </p>
+  <p>
+    In addition to the MNEMET Teams researchers, the confirmed invited speakers are:
+  </p>
+
+  <ul>
+    <li> <strong>Giada Adelfio</strong>, Università degli Studi di Palermo</li>
+    <li> <strong>Roberto Casarin</strong>, Università Ca’ Foscari di Venezia</li>
+    <li> <strong>Gioia Di Credico</strong>, Università degli Studi di Trieste</li>
+    <li> <strong>Fabrizio Durante</strong>, Università del Salento</li>
+    <li> <strong>Sirio Legramanti</strong>, Università degli Studi di Bergamo</li>
+    <li> <strong>Ilaria Prosdocimi</strong>, Università Ca’ Foscari di Venezia</li>
+    <li> <strong>Francesco Ravazzolo</strong>, Libera Università di Bolzano-Bozen, BI Norwegian Business School</li>
+  </ul>
+
+  <p>
+    The one-day workshop will take place in the main campus of the <a href="https://portale.units.it"  target="_blank">University of Trieste</a> at the Department of Economics, Business, Mathematics and Statistics “B. de Finetti” (<a href="https://deams.units.it" target="_blank">deams.units.it</a>).
+  </p>
+
+  <p>
+    <strong>Opening and registration:</strong> 9:00 – 9:30<br>
+    <strong>Workshop end:</strong> around 4:30 PM<br>
+  </p>
+      
+  <p>
+     A tentative schedule for the day will be published soon.
+   </p>    
+      
+  <p>
+    Participation to the event is <strong>free</strong> and it includes a light lunch and coffee breaks.
+  </p>
+
+  <p>
+    Please register your interest in participating in the workshop using the <a href="https://docs.google.com/forms/d/1WAWS_jDsB58ceZAhXd9fu2GbmBAFlkl57pJq9X0dmLM/edit" target="_blank"> registration form</a>.
+  </p>
+
+</body>
+</html>
+</p>
+<p>Contact: 
+<a href="mailto:rpappada@units.it">rpappada@units.it</a></p>
+<p><br></p>
+
+
+</p>
+<p>Funding: The MNEMET project received funding from the European Union Next-GenerationEU - National Recovery and Resilience Plan (NRRP) – MISSION 4 COMPONENT 2, INVESTIMENT 1.1 Fondo per il Programma Nazionale di Ricerca e Progetti di Rilevante Interesse Nazionale (PRIN) – CUP J53D23009170006.</p>
+<p><br></p>
+
+<center>
+<img src="funding.png" alt="drawing" style="width:1000px;"/>
+</center>
+</div>    
+
+
+</div>
+
+
+</div>
 
 <script>
 
@@ -333,3 +506,4 @@ $(document).ready(function () {
 
 </body>
 </html>
+
