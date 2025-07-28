@@ -28,13 +28,13 @@ navbar:
     #  icon: fa-file-pdf-o
     #  href: Outputs.html  # CHANGE HERE OR DELETE ALL 3 LINES 
   right:
-   - text: "Project"
-      icon: fa-envelope-o
-      href: Project.html   # CHANGE HERE 
-   - text: "Research Team"
-      icon: fa-envelope-o
-      href: ResearchTeam.html   # CHANGE HERE 
-      - text: "Contact me"
+   #- text: "Project"
+   #   icon: fa-envelope-o
+   #   href: Project.html   # CHANGE HERE 
+   #- text: "Research Team"
+   #   icon: fa-envelope-o
+   #   href: ResearchTeam.html   # CHANGE HERE 
+      - text: "Project"
       icon: fa-home
       href: Contact_me.html   # CHANGE HERE    
     #- text: "GitHub"
