@@ -530,5 +530,31 @@ $(document).ready(function () {
   })();
 </script>
 
+<script>
+$(document).ready(function() {
+  $('.dropdown-submenu > a').on("click", function(e) {
+    e.preventDefault();
+    var submenu = $(this).next('.dropdown-menu');
+    $('.dropdown-submenu .dropdown-menu').not(submenu).hide();
+    submenu.toggle();
+    e.stopPropagation();
+  });
+
+  $(document).on("click", function() {
+    $('.dropdown-submenu .dropdown-menu').hide();
+  });
+});
+</script>
+
+<style>
+@media (max-width: 767px) {
+  .dropdown-submenu>.dropdown-menu {
+    display: none;
+    position: static;
+    margin-left: 20px;
+  }
+}
+</style>
+
 </body>
 </html>
