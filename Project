@@ -11,7 +11,7 @@
 
 
 
-<title>Project</title>
+<title>Project.knit</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -266,7 +266,7 @@ $(document).ready(function () {
  <ul class="nav navbar-nav navbar-right">
 
    <li>
-  <a href="Contact_me.html">
+  <a href="Project.html">
     <span class="fa fa-envelope-o"></span>
      
     Project
