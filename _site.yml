@@ -41,7 +41,7 @@ navbar:
       icon: fa-cubes 
       href: Project.html   # CHANGE HERE    
       - text: "Research Team"
-      icon: fa-paper-plane 
+      icon: fa-users
       href: ResearchTeam.html   # CHANGE HERE    
     #- text: "GitHub"
     #  icon: fa-github
