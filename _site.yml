@@ -5,10 +5,10 @@ extra_css:
 navbar:
   title: "MNEMET"                             # CHANGE HERE 
   type: inverse
-  left:
-  - text: "Home"
-    icon: fa-home
-    href: index.html
+  #left:
+  #- text: "Home"
+  #  icon: fa-home
+  #  href: index.html
     #- text: "Publications"
    #   icon: fa-paper-plane 
    #   href: publications.html
@@ -34,6 +34,9 @@ navbar:
    #- text: "Research Team"
    #   icon: fa-envelope-o
    #   href: ResearchTeam.html   # CHANGE HERE 
+     - text: ""
+        icon: fa-home
+        href: index.html
       - text: "Project"
       icon: fa-cubes 
       href: Project.html   # CHANGE HERE    
