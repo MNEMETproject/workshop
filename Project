@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNEMET Project</title>
+</head>
+<body>
+    <header>
+        <h1>MNEMET Project</h1>
+        <p><strong>Grant:</strong> 20223CEZSR</p>
+        <p><strong>Funded by:</strong> Italian Ministry of University and Research under the PRIN</p>
+    </header>
+
+    <section>
+        <h2>What is MNEMET?</h2>
+        <p><strong>MNEMET</strong> is the acronym for <em>“Modelling Non-standard data and Extremes in Multivariate Environmental Time series (MNEMET)”</em>.</p>
+    </section>
+
+    <section>
+        <h2>Research Units</h2>
+        <ul>
+            <li><strong>University of Trieste</strong> (PI: Roberta Pappadà)</li>
+            <li><strong>University of Milan</strong> (Co-PI and Head of the local unit: Luca Rossini)</li>
+            <li><strong>Free University of Bozen-Bolzano</strong> (Head of the local unit: F. Marta L. Di Lascio)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Brief Description of the Proposal</h2>
+        <p>
+            The increasing interest of the scientific community in developing methods to assess climate change and its impacts 
+            on natural and human systems poses new challenging tasks in modern statistics.
+        </p>
+        <p>
+            The newest report from the Intergovernmental Panel on Climate Change (IPCC), released on February 28, 2022, highlights 
+            that severe climate change impacts are already happening and, in particular, extreme events have become more frequent 
+            and intense.
+        </p>
+        <p>
+            Multivariate statistical modelling can provide a fundamental contribution to environmental research by allowing the 
+            description of complex interactions between the involved variables, where a major focus is on the occurrence of extremes.
+        </p>
+        <p>
+            Following the indications of the <a href="https://sdgs.un.org/goals" target="_blank" rel="noopener noreferrer">
+            Sustainable Development Goals</a> adopted by the United Nations, and in particular Goal 13: 
+            <em>“Take urgent action to combat climate change and its impacts”</em>, our proposal aims to investigate some challenging 
+            aspects of temporal and spatial modelling concerning specific features of environmental data.
+        </p>
+    </section>
+</body>
+</html>
