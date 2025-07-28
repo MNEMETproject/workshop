@@ -36,7 +36,7 @@ navbar:
    #   href: ResearchTeam.html   # CHANGE HERE 
       - text: "Project"
       icon: fa-home
-      href: Contact_me.html   # CHANGE HERE    
+      href: Project.html   # CHANGE HERE    
     #- text: "GitHub"
     #  icon: fa-github
     #  href: https://github.com/MNEMETproject      # CHANGE HERE 
