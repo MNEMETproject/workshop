@@ -31,9 +31,9 @@ navbar:
    - text: "Project"
       icon: fa-envelope-o
       href: Project.html   # CHANGE HERE 
-  #  - text: "Contact"
-  #    icon: fa-envelope-o
-  #    href: Contact_me.html   # CHANGE HERE 
+   - text: "Research Team"
+      icon: fa-envelope-o
+      href: ResearchTeam.html   # CHANGE HERE 
     #- text: "GitHub"
     #  icon: fa-github
     #  href: https://github.com/MNEMETproject      # CHANGE HERE 
