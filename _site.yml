@@ -27,10 +27,10 @@ navbar:
     #- text: "Outputs"
     #  icon: fa-file-pdf-o
     #  href: Outputs.html  # CHANGE HERE OR DELETE ALL 3 LINES 
-  #right:
-  # - text: "Invited"
-  #    icon: fa-envelope-o
-  #    href: InvitedSpeakers.html   # CHANGE HERE 
+  right:
+   - text: "Project"
+      icon: fa-envelope-o
+      href: Project.html   # CHANGE HERE 
   #  - text: "Contact"
   #    icon: fa-envelope-o
   #    href: Contact_me.html   # CHANGE HERE 
