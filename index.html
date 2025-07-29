@@ -145,7 +145,29 @@ pre code {
 }
 </style>
 
+<style>
+/* Menu verticale */
+.vertical-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 0;
+  margin: 0 auto;
+  width: fit-content;
+}
 
+.vertical-nav li {
+  float: none;
+  width: 100%;
+  text-align: left;
+}
+
+.vertical-nav li a {
+  display: block;
+  padding: 10px 15px;
+}
+</style>
+       
 <style type="text/css">
 .dropdown-menu {
   position: absolute;
@@ -279,7 +301,7 @@ pre code {
 
       <!-- Link del menu -->
       <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-center text-center">
+        <ul class="nav navbar-nav navbar-center text-center vertical-nav">
           <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
           <li><a href="Project.html"><span class="fa fa-cubes"></span> Project</a></li>
           <li><a href="ResearchTeam.html"><span class="fa fa-users"></span> Research Team</a></li>
