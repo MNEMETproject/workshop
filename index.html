@@ -144,29 +144,6 @@ pre code {
   padding: 0;
 }
 </style>
-
-<style>
-/* Menu verticale */
-.vertical-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 0;
-  margin: 0 auto;
-  width: fit-content;
-}
-
-.vertical-nav li {
-  float: none;
-  width: 100%;
-  text-align: left;
-}
-
-.vertical-nav li a {
-  display: block;
-  padding: 10px 15px;
-}
-</style>
        
 <style type="text/css">
 .dropdown-menu {
@@ -242,13 +219,39 @@ pre code {
 .navbar-center {
   float: none;
   margin: 0 auto;
-  display: table;
+  display: flex;
+  flex-direction: column;
   table-layout: fixed;
+  align-items: flex-start;
+  padding-left: 0;
+  margin: 0 auto;
+  width: fit-content;
 }
 .navbar-center > li {
   float: none;
   display: table-cell;
   text-align: center;
+}
+
+       /* Menu verticale */
+.vertical-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 0;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.vertical-nav li {
+  float: none;
+  width: 100%;
+  text-align: left;
+}
+
+.vertical-nav li a {
+  display: block;
+  padding: 10px 15px;
 }
 </style>
 
