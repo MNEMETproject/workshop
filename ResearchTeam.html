@@ -9,23 +9,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-.content {
-      max-width: 800px;
-      margin: 0 auto;
-      text-align: justify;
-      font-family: sans-serif;
-      line-height: 1.6;
-    }
-      
-.left-align {
-   text-align: left;
-}
-
 <title>index.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="site_libs/header-attrs-2.4/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<!--<meta name="viewport" content="width=1024">-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=0.5" />-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">      
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
@@ -66,14 +56,21 @@ if (window.hljs) {
 </script>
 
 
-
-
-
-
-
-
-
 <style type = "text/css">
+
+      .content {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: justify;
+      font-family: sans-serif;
+      line-height: 1.6;
+    }
+      
+.left-align {
+   text-align: left;
+} 
+
+      
 .main-container {
   max-width: 940px;
   margin-left: auto;
@@ -104,43 +101,16 @@ pre code {
 
 
 <style type="text/css">
-.dropdown-submenu {
-  position: relative;
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  z-index: 1000;
 }
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
+
 </style>
 
 <script type="text/javascript">
@@ -269,61 +239,77 @@ $(document).ready(function () {
     }
   </style>
 </head>
-
       
 <body>
 
 <div class="container-fluid main-container">
 
+  <!-- Titolo in alto -->
+  <div class="text-center py-4" style="color: white;  background-color: #222;">
+    <div style="font-size: 48px; font-weight: bold;">MNEMET</div>
+    <div style="font-size: 24px;">Final Workshop</div>
+  </div>   
 
+  <!-- Navigation bar sotto il titolo -->
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+      
+      <!-- Bottone mobile -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
+      <!-- Link del menu -->
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav text-center">
+          <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+          <li><a href="Project.html"><span class="fa fa-cubes"></span> Project</a></li>
+          <li><a href="ResearchTeam.html"><span class="fa fa-users"></span> Research Team</a></li>
+        </ul>
+      </div>
 
-<div class="container-fluid main-container">
+    </div>
+  </nav>
+
+</div>
+    
+<!--<div class="container-fluid main-container">
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="min-height: 160px; padding-top: 10px; padding-bottom: 30px;">
   <div class="container" style="max-width: 100%;">
+                  <div class="navbar-brand mx-auto d-block text-center" style="float: none; padding: 20px 15px; line-height: 1.25; color: white;">
+  <div style="font-size: 48px; font-weight: bold;">MNEMET</div>
+  <div style="font-size: 24px;">Final Workshop</div>
+</div>
+    </div>
     <div class="navbar-header text-center" style="width: 100%;">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>   
-      <a class="navbar-brand mx-auto d-block text-center" href="index.html" style="float: none; font-size: 30px; padding: 20px 15px; line-height: 1.25; color: white;">
-        MNEMET Final Workshop<br>
-      </a>
-    </div>
     <div id="navbar" class="navbar-collapse collapse">
- <ul class="nav navbar-nav navbar-center">
-        <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
+<ul class="nav navbar-nav navbar-center">
+<li> <a href="index.html"> <span class="fa fa-home"></span> </a></li>
+    <li><a href = "Project.html"> <span class="fa fa-cubes"></span>  Project  </a></li>
+    <li> <a href="ResearchTeam.html"> <span class="fa fa-paper-plane"></span> Research Team </a> </li>
+  </ul>-->
 
-  </a>
-</li>
-       
-   <li>
-  <a href="Project.html">
-    <span class="fa fa-cubes"></span>
-     
-    Project
-  </a>
-</li>
 
-              <li>
-  <a href="ResearchTeam.html">
-    <span class="fa fa-paper-plane"></span>
-     
-    Research Team
-  </a>
-</li>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
 </div>      
 
+
 <div id="header">
 
 
-<p><br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  </p>  
+<p><br>  </p>  
 
 <div class="workshop-content">
 
